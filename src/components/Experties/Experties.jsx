@@ -12,7 +12,7 @@ const Experties = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ amount: 0.25 }}
       className={css.wrapper}
     >
       <div className={`flexCenter ${css.bigContainer}`}>
@@ -28,7 +28,7 @@ const Experties = () => {
               return (
                 <a href={exp.link}>
                   <motion.div
-                    variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)}
+                    variants={fadeIn("right", "tween", (i + 1) * 0.2, 0.4)}
                     className={css.exp}
                     key={i}
                     onMouseEnter={() => {
