@@ -28,7 +28,7 @@ const Experties = () => {
               return (
                 <a href={exp.link}>
                   <motion.div
-                    variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)}
+                    variants={fadeIn("right", "tween", (i + 1) * 0.2, 0.4)}
                     className={css.exp}
                     key={i}
                     onMouseEnter={() => {
