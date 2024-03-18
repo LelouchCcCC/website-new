@@ -30,9 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/InfinityJax/website-new">
   ![alt text](image.png)
-  </a>
   
 
 <h3 align="center">My Website</h3>
