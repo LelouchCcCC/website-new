@@ -4,15 +4,20 @@ import css from "./LeetCode.module.scss";
 import { fadeIn } from "../../utils/motion";
 const LeetCode = () => {
   return (
-    <motion.div
-      variants={fadeIn("down", "tween", 1.5, 1.5)}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`primaryText paddings innerWidth flexCenter ${css.container}`}
-    >
-      Coming Soon
-    </motion.div>
+    <div className={`${css.wrapper}`}>
+      <div className={`${css.bigContainer}`}>
+        <div className={`yPaddings flexCenter ${css.leftContainer}`}>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </div>
+
+      </div>
+    </div>
   );
 };
 
