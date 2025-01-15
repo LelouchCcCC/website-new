@@ -12,6 +12,7 @@ import generateLightColor from "../../utils/randomColor";
 const Works = () => {
   return (
     <motion.section
+    
       variants={staggerChildren}
       initial="hidden"
       whileInView="show"
@@ -40,7 +41,7 @@ const Works = () => {
                 ></motion.div> */}
                 <div className={css.role}>
                   <h1>{exp.role}</h1>
-                  <p>{exp.detail}</p>
+                  <p dangerouslySetInnerHTML={{ __html: exp.detail }}></p>
                 </div>
               </motion.div>
             );

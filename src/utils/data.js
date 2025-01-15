@@ -117,7 +117,14 @@ export const workExp = [
     tenure: "Sep 2019 - Jun 2023",
     role: "Bachelor's Degree at CS",
     detail:
-      "acknowledged basic computer knowledge and programming skills, accompanied with solid maths and some machine learning basic concepts",
+      "Acknowledged basic computer knowledge and programming skills, accompanied with solid maths and some machine learning basic concepts",
+  },
+  {
+    place: "Swapt",
+    tenure: "May 2024 - Dec 2024",
+    role: "Full-Stack Software Engineer",
+    detail:
+      "Served as a Full-Stack Developer on the POS team, spearheading the development of an online store, mentoring new interns.<br>I'm proud of I integrated <strong>Apple Pay</strong> into the website and implemented <strong>WebSocket</strong> for real-time data synchronization.",
   }
 ];
 
